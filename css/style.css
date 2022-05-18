@@ -635,18 +635,14 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f26376;
 }
 
 .image__basket {
   display: block;
   margin-right: 23px;
-}
-
-.add__text {
-  display: block;
-  font-weight: 400;
-  font-size: 16px;
-  color: #f26376;
 }
 
 .cart__content {
@@ -870,11 +866,7 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.reg__button-text {
-  margin-left: 29px;
-  display: block;
+  padding-left: 29px;
   font-size: 14px;
   font-weight: 400;
 }
