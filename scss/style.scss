@@ -298,19 +298,19 @@ a {
 }
 
 .free-delivery {
-  background-image: url(/img/delivery.svg);
+  background-image: url(../img/delivery.svg);
 }
 
 .discounts {
-  background-image: url(/img/sales.svg);
+  background-image: url(../img/sales.svg);
 }
 
 .quality {
-  background-image: url(/img/quality.svg);
+  background-image: url(../img/quality.svg);
 }
 
 .footer__info {
-  background-image: url(/img/subscribe_bg.jpg);
+  background-image: url(../img/subscribe_bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -328,7 +328,7 @@ a {
 }
 
 .info {
-  background-image: url(/img/review_ph.png);
+  background-image: url(../img/review_ph.png);
   background-repeat: no-repeat;
   padding: 120px 30px 10px;
   background-position: top;
@@ -525,7 +525,7 @@ a {
 }
 
 .product__photo {
-  background-image: url(/img/product-woman.png);
+  background-image: url(../img/product-woman.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -908,5 +908,5 @@ a {
   font-weight: 300;
   font-size: 24px;
   list-style: none;
-  list-style-image: url(/img/mark.png);
+  list-style-image: url(../img/mark.png);
 }
