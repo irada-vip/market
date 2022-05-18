@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap header-wrap">
+            <div class="header-col-1">
+                <a class="logo-link" href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                <button class="search-button" type="button"><img src="img/search.svg" alt="search">
+                </button>
+            </div>
+            <div class="header-col-2">
+                <button class="main-menu-button" type="button"><img src="img/burger.svg" alt="menu">
+                </button>
+                <a href="#" class="registry-link"><img src="img/user.svg" alt="registry"></a>
+
+                <a href="#" class="cart-link"><img src="img/basket.svg" alt="cart"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="title">
+        <div class="wrap title__wrap">
+            <div>
+                <h1 class="title__text coral">SHOPPING CART </h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrap cart__content">
+
+        <div class="cart__products">
+            <div class="cart__product">
+                <a href="#"><img class="cart__cross" src="/img/cross-delete.svg" alt="cross"></a>
+                <img src="/img/item3.jpg" alt="product-1">
+                <div class="product__info-1">
+                    <h4 class="cart__product-name">MANGO PEOPLE T-SHIRT</h4>
+                    <div class="product__stats">
+                        <p>Price: <span class="coral">$300</span></p>
+                        <p>Color: Red</p>
+                        <p>Size: XL</p>
+                        <p>Quantity: <input value="2" class="border__quantity"></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cart__product">
+                <a href="#"><img class="cart__cross" src="/img/cross-delete.svg" alt="cross"></a>
+                <img src="/img/catalog-2.jpg" alt="product-1">
+                <div class="product__info-1">
+                    <h4 class="cart__product-name">MANGO PEOPLE T-SHIRT</h4>
+                    <div class="product__stats">
+                        <p>Price: <span class="coral">$300</span></p>
+                        <p>Color: Red</p>
+                        <p>Size: XL</p>
+                        <p>Quantity: <input value="2" class="border__quantity"></p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="cart__buttons">
+                <button class="cart__button">CLEAR SHOPPING CART</button>
+                
+                <button class="cart__button">CONTINUE SHOPPING</button>
+                
+                </div>
+        </div>
+
+        <div class="apply__order">
+            <div class="apply__forms">
+                <h3 class="shipping__adress">SHIPPING ADRESS</h3>
+                <div class="cart__forms">
+                    <input class="cart__input" type="text" placeholder="Bangladesh">
+                    <input class="cart__input" type="text" value="State">
+                    <input class="cart__input" type="text" value="Postcode/Zip">
+                </div>
+                <button class="apply__button">GET A QUOTE</button>
+            </div>
+            <div class="total__price">
+            <h3 class="sub__total">SUB TOTAL <span class="span__sub">$900</span></h3>
+            <h2 class="grand__total">GRAND TOTAL <span class="span__grand coral">$900</span> </h2>
+            <hr class="total__hr">
+            <form action="/registration.html">
+            <button type="submit" class="checkout__button">PROCEED TO CHECKOUT</button></form>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="footer">
+        <div class="footer__info">
+            <div class="wrap footer-wrap">
+                <div class="info">
+                    <p class="citate">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</p>
+                </div>
+                <div class="subscribe">
+                    <h4 class="subscribe__title">SUBSCRIBE</h4>
+                    <p class="subscribe__text">
+                        FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="subscribe__form">
+                        <input class="subscribe__input" type="email" placeholder="Enter Your Email">
+                        <button class="subscribe__button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="basement footer ">
+                <div class="wrap basement__wrap">
+                    <div>
+                        <p class="basement__text">© 2021 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="basement__socials">
+                        <a href="#" class="basement__social-link"><img src="/img/facebook.svg" alt=""></a>
+                        <a href="#" class="basement__social-link"><img src="/img/instagram.svg" alt=""></a>
+                        <a href="#" class="basement__social-link"><img src="/img/pintress.svg" alt=""></a>
+                        <a href="#" class="basement__social-link"><img src="/img/twitter.svg" alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
